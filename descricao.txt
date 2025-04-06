@@ -1,0 +1,15 @@
+Descrição do algoritmo
+
+O código implementa um jogo de cobrança de pênaltis no terminal, com representação gráfica simples em ASCII. O usuário escolhe se quer ser jogador (chutador) ou goleiro. A cada rodada:
+
+O jogador escolhe um lado para chutar (esquerda, meio ou direita).
+
+O goleiro (controlado aleatoriamente ou pelo jogador, dependendo do modo) tenta defender.
+
+Se o goleiro acerta o lado do chute, ele defende. Caso contrário, é gol.
+
+Vence quem fizer 2 gols primeiro (melhor de 3).
+
+Após o jogo, o usuário pode decidir jogar novamente ou sair.
+
+O jogo usa a função gotoxy e a biblioteca <windows.h> para mover o cursor no console e movimentar a bola e os bonecos.

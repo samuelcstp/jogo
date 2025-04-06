@@ -1,0 +1,32 @@
+======== JOGO DE PÊNALTIS ========
+ 
+Modo Jogador:
+Você escolhe o lado para chutar:
+1 - Esquerda do goleiro
+2 - Meio
+3 - Direita do goleiro
+
+O goleiro tenta adivinhar o lado do chute de forma aleatória.
+Se ele acertar, DEFESA. Caso contrário, GOOOOOL!
+
+Modo Goleiro:
+Você escolhe o lado para defender:
+1 - Seu lado esquerdo
+2 - Meio
+3 - Seu lado direito
+
+O jogador (IA) chutará aleatoriamente.
+
+Objetivo:
+- Melhor de 3. Quem marcar 2 gols primeiro, vence.
+
+Como rodar:
+1. Compile com um compilador C no Windows (por usar <windows.h>).
+   Ex: `gcc -o jogo jogo.c`
+
+2. Execute o programa:
+   `./jogo` ou `jogo.exe`
+
+3. Escolha se quer jogar como Jogador (1) ou Goleiro (2).
+
+4. Comece a jogar!
